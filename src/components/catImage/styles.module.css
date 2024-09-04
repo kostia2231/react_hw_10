@@ -1,0 +1,38 @@
+.catWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  margin: 10px;
+}
+
+img {
+  position: absolute;
+  transition: all 0.5s ease;
+  max-width: 100%;
+  display: inline-block;
+}
+
+button {
+  padding: 1rem;
+  background-color: rgb(255, 206, 231);
+  border: 1px solid rgb(255, 206, 231);
+  margin-bottom: 10px;
+  color: white;
+  z-index: 999;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: white;
+  color: rgb(255, 206, 231);
+  border: 1px solid rgb(255, 206, 231);
+  transition: 0.3s ease;
+}
+
+button:active {
+  background-color: rgb(255, 206, 231);
+  color: white;
+  transition: 0.3s ease;
+}
